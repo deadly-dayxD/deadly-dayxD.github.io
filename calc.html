@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>HTML Document</title>
+      <link rel="stylesheet" href="style.css">
+      <script src ="scriptcalc.js"></script>
+      <title>first</title>
+    </head>
+    <body bgcolor="#DEB887">
+
+<h1 align="center"> Лабораторная работа №3 </h1>
+<center><b> Калькулятор </b><p></p>
+
+<h> A = </h>
+<input id="a" />
+<br><br>
+
+<h> B = </h>
+<input id="b" />
+<br><br>
+
+<div id="operator_btns">
+  <button id="plus" class="operator" onclick="op='+'">+</button>
+  <button id="minus" class="operator" onclick="op='-'">-</button>
+  <button id="mult" class="operator" onclick="op='*'">x</button>
+  <button id="divide" class="operator" onclick="op='/'">:</button>
+  <button id="Maximum" class="operator" onclick="op='Max'">Max</button>
+  <button id="Minimum" class="operator" onclick="op='Min'">Min</button>
+</div>
+<br>
+
+<button onclick="func()">Считать!</button>
+<br><br>
+
+<h>Результат = </h>
+<output id="result">
+<br><br>
+</body>
+

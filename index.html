@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>HTML Document</title>
+      <link rel="stylesheet" href="style.css">
+      <script src ="scriptmy.js"></script>
+      <title>first</title>
+    </head>
+    <body bgcolor="#DEB887">
+
+<h1 align="center"> Лабораторная работа №3 </h1>
+
+</head>
+<body>
+
+<center><b> Индивидуальное задание №1. Нахождение максимума из двух чисел</b><p></p>
+<form name="form1">
+Введите числа:<br><br>
+A = <input type="text" name="A" size="4">
+B = <input type="text" name="B" size="4">
+<input type="button" value="Вывести" onClick="Max()" /><br><br>
+Результат = <output type="text" name="x1" size="20">&nbsp;&nbsp;&nbsp;&nbsp;
+</center>
+</form>
+<br><br>
+
+<center><b> Индивидуальное задание №2. Взаимодействие с пользователем</b><p></p>
+<form name="form2">
+    <h3>Администратор</h3>
+    Admin : 
+    <input type="button" value="Вывести администратора" onClick="Check()" /><br><br>
+    </center> 
+</form>
+<br><br>
+
+<center><b> Индивидуальное задание №3. Уточнение возраста</b><p></p>
+  <form name="form3">
+      <h3>Возраст</h3>
+      <input type="button" value="Ввод" onClick="Age()" /><br><br>
+      </center> 
+  </form>
+
+  <center><b> Индивидуальное задание №4. Резюме</b><p></p>
+    <form name="form4">
+        ФИО: Моисеев Евгений Юрьевич <br>
+        Пол: Мужской <br>
+        Возраст: 21 год <br>
+        Email: eugenem24@mail.ru
+        <br><br>
+        Дополнительная информация : <input type="text" name="Info" size="20">
+        <br><br>
+        <input type="button" value="Показать место проживания" onClick="Show()" /><br><br>
+      <center><img src="wick.jpg" alt="Photo" width="250" height="250">
+        <br><br>
+        </center> 
+    </form>
+
+    <center><b> Индивидуальное задание №5. Заполнение резюме</b><p></p>
+      <form name="form5">
+        <p>Заполните форму резюме (все поля  обязательны)</p>
+        <p>Имя: <input name="name" required placeholder=" "></p>
+        <p>Пол: <input gender="gender" required placeholder=" "></p>
+        <p>Возраст: <input type="number" age="age" required placeholder=" " min = "1" max = "100"></p>
+        <p>Страна: <input country="country" required placeholder=" "></p>
+        <p>Город: <input city="city" required placeholder=" "></p>
+          <p>Email: <input type="email" id ="email" name="email" required placeholder=" "></p>
+          <p>Пароль: <input pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" type="password" id="password" name="password" required placeholder=" "></p>
+          <p><input type="button" value="Сохранить" onClick="Resume()"> <input type="submit" value="Отправить"></p>
+          </center> 
+      </form>
+
+</body>
+</html>
